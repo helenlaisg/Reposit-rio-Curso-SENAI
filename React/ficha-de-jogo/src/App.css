@@ -1,0 +1,66 @@
+.character-portrait {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Efeito de retrato redondo */
+  object-fit: cover;  /* Impede que a imagem fique distorcida */
+  margin-bottom: 20px; /* Adiciona um espaço entre a imagem e o título */
+  border: 3px solid #555; /* Borda sutil */
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.ficha-personagem {
+  border: 2px solid white;
+  padding: 20px 40px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: #444c5a;
+}
+
+.contador {
+  font-size: 3.5em;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #61dafb;
+}
+
+.botoes-container button {
+  font-size: 1.5em;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  transition: transform 0.1s ease;
+}
+
+.botoes-container button:active {
+  transform: scale(0.95);
+}
+
+.botoes-container button:nth-child(1) {
+  background-color: #dc3545; /* Vermelho */
+}
+
+.botoes-container button:nth-child(2) {
+  background-color: #28a745; /* Verde */
+}
+
+.botoes-container button:last-child {
+  background-color: #ffc107; /* Amarelo */
+  color: black;
+}
