@@ -10,9 +10,6 @@
 ## 🚀 Demonstração
 
 - 🔗 Acesse: [Link do projeto](#) (este repositório reúne vários projetos; a execução é local)
-- 📸 Preview:
-
-![Preview Divino Donuts](./Divino_Donuts/img/home.png)
 
 ---
 
